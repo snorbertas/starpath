@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b8571772ae6914c905ea677dd4554d, type: 3}
+  m_Name: Forest
+  m_EditorClassIdentifier: 
+  weather: 2
+  backgroundZ: 13
+  brights: {fileID: 4503313969765018416, guid: 84abb26b591ade548bbf5e7bee7f24ca, type: 3}
+  layers:
+  - {fileID: 2243830815451567393, guid: 177284e193878d2439ef2ff8bb5a5212, type: 3}
+  - {fileID: 5680806483396188370, guid: fb95d1c6f40eef9458413eff2209a7e8, type: 3}
+  - {fileID: 2368668072968182098, guid: f3e36857d1071bd46a7f7d3b286dcab3, type: 3}
+  - {fileID: 2599602792553998831, guid: 2948c72c39cf67946bae356065fee37a, type: 3}
+  - {fileID: 3484737894233412117, guid: cb0de665083c484459bfa0994c04a38e, type: 3}
+  transitionLayer: {fileID: 5811607689792285710, guid: e30f48f72d2628741a1d29e581f09102, type: 3}
+  mergeChunk: {fileID: 5171358447082145226, guid: 31888947dee34f54fa6da684a6650ec4, type: 3}
+  dustColor: {r: 0.23504807, g: 0.3584906, b: 0.23504807, a: 1}
+  groundColor: {r: 0.34740192, g: 0.4811321, b: 0.3472321, a: 1}
+  chunks:
+  - {fileID: 2671125572962534098, guid: 57d3ef5bbef01844492f0fcf7c4a3e71, type: 3}
+  - {fileID: 2671125572962534098, guid: 2eaff13b17337594f8bc52a400e37582, type: 3}
+  - {fileID: 2671125572962534098, guid: 2919db0f692dd5049858ddbcf8270af2, type: 3}
+  - {fileID: 2671125572962534098, guid: 14cb4384ef763334aa0fdf6b5d6555b5, type: 3}
+  - {fileID: 2671125572962534098, guid: 20313aee7fe48e94db506a0428549a58, type: 3}
+  - {fileID: 2671125572962534098, guid: 3ebe825ca5164124084e915918c30391, type: 3}
+  - {fileID: 2671125572962534098, guid: 51de9be201eda6b44ba69a87676b4fd2, type: 3}
+  - {fileID: 2671125572962534098, guid: 3115c80f42f84dc439d115c57da3d0d9, type: 3}
+  - {fileID: 2671125572962534098, guid: f501c8c00a64e8e4b985950da7b3189e, type: 3}
+  slidingSound: 3
+  foregroundPrefabs:
+  - {fileID: 5661650679534069300, guid: 48ef1a6f7cacd6341afc23f89df4ac0c, type: 3}
+  - {fileID: 5661650679534069300, guid: 3cef8574b79bbbe468ae32f0a751f538, type: 3}
+  - {fileID: 5661650679534069300, guid: 9b9cbfda1fdd20e4fba0fed3604e27ef, type: 3}

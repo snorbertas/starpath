@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b8571772ae6914c905ea677dd4554d, type: 3}
+  m_Name: Snowy
+  m_EditorClassIdentifier: 
+  weather: 1
+  backgroundZ: 4
+  brights: {fileID: 4503313969765018416, guid: 9cfae034b1a2cbc439a324850b8ea7a5, type: 3}
+  layers:
+  - {fileID: 2243830815451567393, guid: de207c0bc04cd7648b76f20deccbbfda, type: 3}
+  - {fileID: 5680806483396188370, guid: 46d449b7fce4a4f4dbccbf396de9775e, type: 3}
+  - {fileID: 2368668072968182098, guid: f010c4a2eb8f5bb4480ae28620d9e479, type: 3}
+  - {fileID: 2599602792553998831, guid: 3106ff4bcf416fd4d8c151838cbc862f, type: 3}
+  - {fileID: 3484737894233412117, guid: 8769433030118ab4c811fa204829a052, type: 3}
+  transitionLayer: {fileID: 5811607689792285710, guid: 3efb6449f1d5e7a4e89f236a60cb8a22, type: 3}
+  mergeChunk: {fileID: 0}
+  dustColor: {r: 0.74759704, g: 0.8126819, b: 0.9056604, a: 1}
+  groundColor: {r: 0.87664646, g: 0.90496457, b: 0.9433962, a: 1}
+  chunks:
+  - {fileID: 2671125572962534098, guid: 765a8716a25f15345bdc570a9a2f3711, type: 3}
+  - {fileID: 2671125572962534098, guid: 9981347767789444384e7394f52ef658, type: 3}
+  - {fileID: 2671125572962534098, guid: 92ef6849734da5b4685926eafb72fe20, type: 3}
+  - {fileID: 2671125572962534098, guid: e72d228f5a277c144bcb893f0f9ba178, type: 3}
+  - {fileID: 2671125572962534098, guid: 37636906d5923c644abc0ac7651aa5d8, type: 3}
+  - {fileID: 2671125572962534098, guid: 3a62d66950d4b404480626e414f66b6f, type: 3}
+  - {fileID: 2671125572962534098, guid: 398e4f7886e820345b059dcf172988e4, type: 3}
+  - {fileID: 2671125572962534098, guid: a3a9901d712984f45af1984e9172e57d, type: 3}
+  - {fileID: 2671125572962534098, guid: b2bc27c8a6616bc429d64d94763b2758, type: 3}
+  slidingSound: 1
+  foregroundPrefabs:
+  - {fileID: 5661650679534069300, guid: 1a34a401a1b49154da7a399f9bdb9323, type: 3}
+  - {fileID: 5661650679534069300, guid: fb6b6caeb4d1fbb4aa619b97f3e5a26d, type: 3}
+  - {fileID: 5661650679534069300, guid: 3cef8574b79bbbe468ae32f0a751f538, type: 3}
+  - {fileID: 5661650679534069300, guid: 48ef1a6f7cacd6341afc23f89df4ac0c, type: 3}

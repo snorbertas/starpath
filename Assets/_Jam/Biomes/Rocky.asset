@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b8571772ae6914c905ea677dd4554d, type: 3}
+  m_Name: Rocky
+  m_EditorClassIdentifier: 
+  weather: 0
+  backgroundZ: 7
+  brights: {fileID: 4503313969765018416, guid: e13bd66bb35e89f43bd756d96dc87826, type: 3}
+  layers:
+  - {fileID: 2243830815451567393, guid: a8f19097e0c8b57439ca4d8ecf25fee9, type: 3}
+  - {fileID: 5680806483396188370, guid: 0ca2bad67a1387340b05fb7cbe24fd22, type: 3}
+  - {fileID: 2368668072968182098, guid: b8ddab60e73e0f94daf5b91968579406, type: 3}
+  - {fileID: 2599602792553998831, guid: 5896c0f04a025ab4bac770ead73809ff, type: 3}
+  - {fileID: 3484737894233412117, guid: f2b4fc29c9b222542adfb9f4fe2c1ba5, type: 3}
+  transitionLayer: {fileID: 5811607689792285710, guid: 5dbc0f35c2a14d448aba9df785195d01, type: 3}
+  mergeChunk: {fileID: 4220041449893206830, guid: 374c70ecfffed4345ab08231335582a5, type: 3}
+  dustColor: {r: 0.5696867, g: 0.60638005, b: 0.6981132, a: 1}
+  groundColor: {r: 0.6896582, g: 0.71195364, b: 0.7735849, a: 1}
+  chunks:
+  - {fileID: 2671125572962534098, guid: 7f4c105ea1ef4fa43848561a7107df65, type: 3}
+  - {fileID: 2671125572962534098, guid: fc32e42800175d64bae5707b5b1a5e17, type: 3}
+  - {fileID: 2671125572962534098, guid: e5e30b6a98c73394589d0c9bfd5f81e3, type: 3}
+  - {fileID: 2671125572962534098, guid: 7d2e1a0baa5ddbf4abcdc2a6be89ca55, type: 3}
+  - {fileID: 2671125572962534098, guid: 28776159d08294d4d9adbff0c75dc61d, type: 3}
+  - {fileID: 2671125572962534098, guid: 3fcc6e245d466054599c0b1e3159ddd0, type: 3}
+  - {fileID: 2671125572962534098, guid: 9a16ff4566260814ba7ba1269e111abe, type: 3}
+  - {fileID: 2671125572962534098, guid: 553838712e323fe4198707b735409c23, type: 3}
+  - {fileID: 2671125572962534098, guid: 503cac6668ce8534cab88324f1bf0ae8, type: 3}
+  slidingSound: 2
+  foregroundPrefabs:
+  - {fileID: 5661650679534069300, guid: 48ef1a6f7cacd6341afc23f89df4ac0c, type: 3}
+  - {fileID: 5661650679534069300, guid: 3cef8574b79bbbe468ae32f0a751f538, type: 3}
+  - {fileID: 5661650679534069300, guid: c078b557a3556fc4c97cc00e06d58b54, type: 3}
