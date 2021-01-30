@@ -8,15 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Jam/Scenes/MAIN_MENU.unity
     guid: c2335cbfba71fe14c8f184e88bfb7bde
-  - enabled: 0
-    path: Assets/_Jam/Scenes/norb.unity
-    guid: b98d3ca8719d78c41bf6c1c137bcbdcd
-  - enabled: 0
-    path: Assets/_Jam/Scenes/mas.unity
-    guid: db64827d0230fa04795f172b4dda2134
-  - enabled: 0
-    path: Assets/_Jam/Scenes/norb2.unity
-    guid: 448143c8adc3d9946a6c24dae2889a61
   - enabled: 1
     path: Assets/_Jam/Scenes/norb3.unity
     guid: 96495fb89f53ace469ce6905f0137e2d
